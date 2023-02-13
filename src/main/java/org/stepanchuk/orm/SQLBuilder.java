@@ -3,7 +3,7 @@ package org.stepanchuk.orm;
 import java.util.List;
 import java.util.StringJoiner;
 
-public class SQLBuilder {
+class SQLBuilder {
     private StringBuilder sql;
 
     public SQLBuilder() {
